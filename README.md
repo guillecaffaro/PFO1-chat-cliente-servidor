@@ -42,9 +42,11 @@ El proyecto utiliza módulos incluidos en Python:
 1. Iniciar el servidor
    
 Abrir una terminal dentro de la carpeta del proyecto y ejecutar: *python servidor.py*
+
 Si todo funciona correctamente, se mostrará:
 
 Base de datos inicializada correctamente.
+
 Servidor escuchando en localhost:5000
 
 <img src="imagenes/iniciar_servidor.png" width="700">
@@ -53,17 +55,21 @@ Servidor escuchando en localhost:5000
 2. Iniciar el cliente
    
 Abrir una segunda terminal en la misma carpeta y ejecutar: *python cliente.py*
+
 El cliente mostrará:
 
 Conectado al servidor.
 
 Escribí tus mensajes.
+
 Para finalizar escribí: éxito
 
 A partir de ese momento se pueden enviar varios mensajes.
 
 Ejemplo:
+
 **Mensaje: Hola**
+
 **Servidor: Mensaje recibido: 2026-09-20 20:30:15**
 
 Para finalizar el cliente se puede escribir: éxito o exito
@@ -115,15 +121,16 @@ El proyecto contempla distintos errores básicos:
 **Pruebas realizadas**
 
 Funcionamiento normal:
-1- Ejecutar servidor.py.
-2- Ejecutar cliente.py en otra terminal.
-3- Enviar varios mensajes.
-4- Verificar que el servidor responda a cada uno.
-5- Comprobar que los mensajes se guarden en mensajes.db.
+1. Ejecutar servidor.py.
+2. Ejecutar cliente.py en otra terminal.
+3. Enviar varios mensajes.
+4. Verificar que el servidor responda a cada uno.
+5. Comprobar que los mensajes se guarden en mensajes.db.
 
 **Puerto ocupado**
 
 Con un servidor ya ejecutándose, abrir otra terminal y ejecutar nuevamente: python servidor.py
+
 El segundo servidor debe informar que no pudo iniciar porque el puerto puede estar ocupado.
 
 <img src="imagenes/puerto_ocupado.png" width="700">
@@ -132,6 +139,7 @@ El segundo servidor debe informar que no pudo iniciar porque el puerto puede est
 **Cliente sin servidor**
 
 Cerrar el servidor y ejecutar: python cliente.py
+
 El cliente debe informar que no pudo conectarse y solicitar verificar que el servidor esté ejecutándose.
 
 <img src="imagenes/cliente_sin_servidor.png" width="700">
@@ -140,4 +148,5 @@ El cliente debe informar que no pudo conectarse y solicitar verificar que el ser
 **Finalización del servidor**
 
 Para detener el servidor desde la terminal: Ctrl + C
+
 El programa finalizará de forma ordenada.
