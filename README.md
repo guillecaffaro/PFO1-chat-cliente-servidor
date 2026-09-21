@@ -1,8 +1,7 @@
 **PFO1 - Implementación de un Chat Básico Cliente-Servidor con Sockets y Base de Datos**
 
 Alumna: Guillermina Zen Cáffaro
-Materia: Programación de Redes
-Tecnicatura en Desarrollo de Software - ITF N°29
+Materia: Programación de Redes - Tecnicatura en Desarrollo de Software - ITF N°29
 
 **Descripción:**
 
