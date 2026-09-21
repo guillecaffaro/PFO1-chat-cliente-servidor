@@ -40,6 +40,7 @@ El proyecto utiliza módulos incluidos en Python:
 **Ejecución:**
 
 1. Iniciar el servidor
+   
 Abrir una terminal dentro de la carpeta del proyecto y ejecutar: *python servidor.py*
 Si todo funciona correctamente, se mostrará:
 
@@ -50,6 +51,7 @@ Servidor escuchando en localhost:5000
 
 
 2. Iniciar el cliente
+   
 Abrir una segunda terminal en la misma carpeta y ejecutar: *python cliente.py*
 El cliente mostrará:
 
